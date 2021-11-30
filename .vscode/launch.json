@@ -14,7 +14,7 @@
         "tsconfig-paths/register"
       ],
       "program": "${workspaceFolder}/src/index.ts",
-      "outFiles": ["${workspaceFolder}/dist/**/*.js"]
+      "outFiles": []
     }
   ]
 }
