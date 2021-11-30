@@ -22,12 +22,11 @@
     "experimentalDecorators": true,
     "resolveJsonModule": true,
     "strict": true,
-    "baseUrl": ".",
-    "rootDir": ".",
+    "baseUrl": "src",
     "importHelpers": true,
     "declaration": true,
     "forceConsistentCasingInFileNames": true
   },
   "exclude": ["node_modules", "dist"],
-  "include": ["./**/*.ts"]
+  "include": ["src"]
 }
