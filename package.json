@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "cross-env NODE_PATH=dist/ node dist/index",
-    "start-again": "node -r ts-node/register/transpile-only -r tsconfig-paths/register dist/index",
+    "start": "node -r ts-node/register/transpile-only -r tsconfig-paths/register dist/index",
     "lint": "eslint .",
     "dev": "ts-node -r tsconfig-paths/register src/index"
   },
@@ -17,7 +16,6 @@
     "@types/node": "^16.11.11",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
-    "cross-env": "^7.0.3",
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
