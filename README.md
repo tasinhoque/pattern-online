@@ -2,9 +2,9 @@
 
 We need these functionalities:
 
-- [ ] Loading data from file
-- [ ] Covariance of a matrix
-- [ ] Matrix multiplication
-- [ ] Inverse matrix
-- [ ] Determinant of a square matrix
-- [ ] Printing a matrix
+- [x] Loading data from file
+- [x] Covariance of a matrix
+- [x] Matrix multiplication
+- [x] Inverse matrix
+- [x] Determinant of a square matrix
+- [x] Printing a matrix
