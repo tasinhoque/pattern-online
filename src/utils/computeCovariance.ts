@@ -4,9 +4,8 @@
 import cov from 'compute-covariance'
 
 const computeCovariance = (
-  x: number[],
-  y: number[]
+  x: number[][]
   // @ts-ignore
-) => cov([x, y]) as number[][]
+) => cov(x) as number[][]
 
 export default computeCovariance
