@@ -1,5 +1,6 @@
 import { multiply, det, inv } from 'mathjs'
 import { printMatrix, readFromFile, computeCovariance } from 'utils'
+import express from 'express'
 
 console.log('\nReading from file:')
 printMatrix(readFromFile('matrix.txt'))
@@ -26,3 +27,7 @@ printMatrix(
     [3, 4],
   ])
 )
+
+const app = express()
+
+app.listen(5000, () => console.log(`Server listening on port ${5000}`))
